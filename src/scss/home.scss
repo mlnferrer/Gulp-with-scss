@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+#desktop-menu  {
+    width: 100%;
+    height: 75px;
+    background-color: #010101;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    transition: all 0.3s;
+
+    .container-fluid .navbar-header img {
+        margin-top: 15px;
+        margin-right: 65px;
+    }
+
+    .container-fluid .nav.navbar-nav {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 240px;
+        
+    }
+
+    #get-tickets {
+        margin-left: 30px;
+    }
+}
+
+.header {
+    left: 0;
+    top: 0;
+    height: 53vw;
+    background: url(https://drive.google.com/uc?id=0B3H5ZU4Lcdc0a3psSGZBZUVmU0U) center top no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    -webkit-transition: all .75s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition: all .75s;
+    transition-timing-function: ease-in-out;
+
+
+    .header-container {
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 30vw;
+      padding-bottom: 2px;
+      z-index: 1;
+
+
+        #headline span {
+          font-family: "Playfair Display",serif;
+          display: block;
+          font-size: 2.083333vw;
+          font-weight: 400;
+          top: 0;
+          text-shadow: 0 0 8px #000;
+        }
+
+        #headline #first-word {
+          margin-right: 166px;
+          margin-bottom: -33px;
+        }
+
+        #headline #second-word {
+          font-size: 6vw;
+        }
+
+        #headline #third-line {
+          top: 6.5vw;
+          margin-left: 65px;
+          margin-top: -10px;
+        }
+    }
+
+
+    .subheader-container {
+      font-size: 32.2px;
+      color: #fff;
+      margin-bottom: 10px;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 8vw;
+      padding-bottom: 2px;
+      z-index: 1;
+
+        .sub-headline {
+          font-family: sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+
+        .sponsors {
+          margin-left: 400px;
+          margin-right: 100px;
+        }
+
+        .sponsors img {
+          vertical-align: bottom;
+          position: relative;
+          margin-top: 3vw;
+        }
+
+        .sponsors #avature {
+          display: inline-block;
+          width: 5.5vw;
+          height: 2vw;
+          margin-left: 2vw;
+        }
+
+        .sponsors #benify {
+          display: inline-block;
+          width: 7vw;
+          height: 2vw;
+          top: .260416vw;
+          margin-right: 3vw;
+        }
+
+        .sponsors #cornerstone {
+          display: inline-block;
+          width: 7vw;
+          height: 1.5vw;
+          margin-right: 5vw;
+          top: 0.3vw;
+        }
+
+        .sponsors #successfactor {
+          display: inline-block;
+          width: 14vw;
+          height: 1.66vw;
+          margin-left: -2vw;
+          margin-bottom: -2.5vw;
+        }
+
+        .sponsors #successfactormobile {
+          display:none;
+        }
+
+        .sponsors #workday {
+          display: inline-block;
+          width: 5vw;
+          margin-right: 50px
+        }
+
+        .left-keynote {
+          position: absolute;
+          bottom: -0.9999vw;
+          left: 2.65vw;
+          text-align: center;
+
+            .title {
+              color: #fff;
+              font-family: 'Raleway', sans-serif;
+              font-size: 1.250000vw;
+              font-weight: 300;
+            }
+
+            .name {
+              color: #fff;
+              font-family: 'Raleway', sans-serif;
+              font-size: 1.770833vw;
+              font-weight: 900;
+            }
+        }
+
+        .right-keynote {
+          position: absolute;
+          bottom: -0.9999vw;
+          right: 6.250000vw;
+          text-align: center;
+
+            .title {
+              color: #fff;
+              font-family: 'Raleway', sans-serif;
+              font-size: 1.250000vw;
+              font-weight: 300;
+            }
+
+            .name {
+              color: #fff;
+              font-family: 'Raleway', sans-serif;
+              font-size: 1.770833vw;
+              font-weight: 900;
+            }
+        }
+
+    }
+}
+
+.futurework {
+  -webkit-transition: all 1.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition: all .75s;
+  transition-timing-function: ease-in-out;
+  left: 0;
+  position: relative;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+
+  #future {
+      .description {
+          margin: 0 auto;
+          text-align: center;
+          width: 100%;
+          max-width: 40vw;
+
+          #title {
+            color: #99cc00;
+            font-size: 34px;
+            letter-spacing: -1px;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+      }
+  }
+
+
+}
+
+
+.dl-img {
+  width: 135px;
+  height: 40px;
+  margin: 0 15px
+}
+
+@media (max-width:1920px) {
+    .navbar-header {
+      margin-left:10px;
+      top: 13px;
+    }
+
+    .button {
+        max-width: 200px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 1279px) {
+      #desktop-menu .container-fluid .nav.navbar-nav {
+        display:none;
+      }
+      .navbar-toggle {
+        display:inherit;
+        position: absolute;
+        right: 4vw;
+      }
+}
+
+@media (max-width: 1279px) and (min-width: 640px) {
+   .header .header-container #headline #first-word {
+          margin-right: 141px;
+          margin-bottom: -23px;
+      }
+}
+
+
+@media (max-width: 390px) {
+      #desktop-menu .container-fluid .nav.navbar-nav {
+        display:none;
+      }
+      .navbar-toggle {
+        display:inherit;
+      }
+
+      .header {
+        height: 221.344vw;
+        background: url(https://drive.google.com/uc?id=0B3H5ZU4Lcdc0a3psSGZBZUVmU0U) center top no-repeat;
+        background-size: cover;
+      }
+
+      .futurework #future {
+          .description {
+            max-width: 70vw !important;
+          }
+
+          .btn {
+            margin-right: 0px !important;
+          }
+      }
+
+      .left-panel {
+        width: 100vw !important;
+        display: block !important;
+
+        .predictive {
+              margin: -47px 0 0 175px !important;
+        }
+
+        .download {
+          font-size: 4.5625vw !important;
+        }
+
+        .paragraph {
+          text-align: justify;
+          padding: 20px;
+        }
+      }
+
+      .right-panel {
+        width: 100vw !important;
+        display: block !important;
+        padding-top: 20vw;
+        padding-bottom: 10vw;
+      }
+
+       
+
+
+}
+
+@media (max-width:640px) {
+  .header {
+    height: 221.344vw;
+    background: url(https://drive.google.com/uc?id=0B3H5ZU4Lcdc0a3psSGZBZUVmU0U) center top no-repeat;
+    background-size: cover;
+
+    .subheader-container  {
+
+        bottom: 1vw !important;
+
+        .sponsors {
+          margin: 0px !important;
+
+          img {
+            margin-top: 3vw;
+            margin-bottom: 3vw;
+            height: 11.5vw !important;
+            position: static;
+          }
+
+          #avature {
+            width: 26vw;
+            height: 9vw !important;
+            margin-right: 16vw;
+          }
+
+          #benify {
+            width: 32vw;
+            height: 9vw !important;
+            margin-right: 0;
+          }
+
+          #cornerstone {
+            width: 37vw;
+            height: 7vw !important;
+            margin-right: 4vw;
+            margin-left: 2vw;
+          }
+
+          #successfactor {
+            display:none;
+          }
+          
+          #successfactormobile{
+            display: inline-block;
+            width: 34.225vw;
+            height: 11.885625vw !important;
+            margin-right: 0;
+          }
+
+          #workday {
+            width: 24.19875vw;
+            height: 9.73375vw !important;
+            margin-right: 50vw;
+          }
+        }
+
+        .sub-headline {
+          font-size: 20px;
+        }
+
+        .left-keynote {
+          text-align: left;
+          top: auto;
+          bottom: 119.646vw;
+          left: 5vw;
+
+            .title {
+              font-size: 3vw;
+            }
+
+            .name {
+              font-size: 3.2vw;
+            }
+        }
+
+        .right-keynote {
+          text-align: right;
+          top: auto;
+           bottom: 119.646vw;
+
+            .title {
+              font-size: 3vw;
+            }
+
+            .name {
+              font-size: 3.2vw;
+            }
+        }
+      
+    }
+
+    
+    .header-container {
+      bottom: 173vw;
+
+        .sponsors {
+          position: relative;
+          bottom: -8.675vw;
+        }
+    }
+
+    .futurework #future {
+          .description {
+            max-width: 76vw !important;
+          }
+
+          .btn {
+            margin-right: 0px !important;
+          }
+      }
+
+    #headline #first-word {
+        font-size: 4vw;
+        display: inline-block;
+        margin-right: 70px !important;
+    }
+
+    #headline #second-word {
+        font-size: 11vw !important;
+        margin-top: -15px !important;
+    }
+
+    #headline #third-line {
+        font-size: 4vw;
+        margin-top: -4px !important;
+        margin-left: 38px !important;
+    }
+
+    .futurework #future .description {
+        max-width: 76vw !important;
+    }
+  }
+
+}
